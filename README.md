@@ -21,19 +21,16 @@ Full 12-page sample: [examples/sample-issue.pdf](examples/sample-issue.pdf)
 The build checks itself: it fails if any text overflows its box, any chess answer is wrong,
 the sudoku has more than one solution, or a QR code doesn't scan from the printed page.
 
-## Quick start (about 20 minutes the first time)
-1. **Make your own copy** of this repo (Fork, or "Use this template") so you can edit it.
-2. **Fill in [`PROFILE.md`](PROFILE.md):** paper name, your kid's age and reading level,
-   what they love, which heritage and local pages you want, topics to skip.
-3. **Ask Claude to make an issue.** In Claude with code turned on (Claude Code, or the Claude
-   app with your GitHub connected), attach your repo and say:
-   > Make this week's issue following RUNBOOK.md.
+## How to use it
+**New here? Follow [GETTING-STARTED.md](GETTING-STARTED.md).** It walks you through it
+step by step, no coding needed:
 
-   You get a PDF back in roughly 20-40 minutes.
-4. **Print it** in colour on plain paper. US Letter prints fine on A4.
-
-Then give feedback in plain words ("too long", "more animals", "she found the quiz too easy")
-and ask Claude to update `PROFILE.md` so it sticks for next week.
+1. Make your own private copy of this repo
+2. Fill in [`PROFILE.md`](PROFILE.md) about your kid
+3. Connect GitHub to Claude Code
+4. Ask Claude to make this week's issue
+5. Download the PDF, read it, print it
+6. Give feedback so next week fits better
 
 To have it arrive every week without asking, see [AUTOMATION.md](AUTOMATION.md).
 
@@ -49,11 +46,12 @@ Output lands in `out/`: the PDF plus a PNG of every page.
 ## What's where
 | File | What it is |
 |---|---|
+| `GETTING-STARTED.md` | Step-by-step setup for parents. Start here. |
 | `PROFILE.md` | Your kid and your paper. The only file most parents edit. |
 | `RUNBOOK.md` | Step-by-step instructions Claude follows each week. |
 | `AUTOMATION.md` | Optional: weekly schedule, preview email, auto-print. |
 | `examples/sample-issue.py` | A complete real issue, used as the model for new ones. |
-| `issues/` | Your issues go here, one file per week. |
+| `issues/` | Your issues go here: the issue file and its PDF, one pair per week. |
 | `build.py` | Layout engine, PDF render and QA checks. |
 | `lib/art.py` | Mascots, illustrations and icons. Ask Claude to add new ones. |
 | `lib/widgets.py` | Chess boards, sudoku, maze, word search, origami diagrams. |

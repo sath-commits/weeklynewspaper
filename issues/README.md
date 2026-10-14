@@ -1,1 +1,1 @@
-Your weekly issues go here, one file per week: YYYY-MM-DD.py
+Your weekly issues go here: YYYY-MM-DD.py (the issue) and YYYY-MM-DD.pdf (the print copy).

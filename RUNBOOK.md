@@ -60,7 +60,8 @@ Then **look at every page PNG in `out/` yourself** before calling it done. QA ca
 overflow, not ugliness.
 
 ## 5. Deliver
-Give the parent the PDF (`out/<slug>.pdf`) plus a short note of judgment calls: sensitive
+Copy the PDF to `issues/YYYY-MM-DD.pdf`, commit it with the issue file and push, so the
+parent can download it from GitHub. Then give the parent a link to it plus a short note of judgment calls: sensitive
 stories and how you handled them, anything you couldn't verify, and stories you left out
 because of the profile's skip list.
 
