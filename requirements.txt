@@ -1,0 +1,6 @@
+chess==1.10.0
+qrcode
+pypdf
+playwright
+opencv-python-headless
+numpy
